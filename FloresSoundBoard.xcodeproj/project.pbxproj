@@ -14,6 +14,9 @@
 		84A855542BF2BF4300623392 /* FloresSoundBoard.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 84A855522BF2BF4300623392 /* FloresSoundBoard.xcdatamodeld */; };
 		84A855562BF2BF4900623392 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84A855552BF2BF4900623392 /* Assets.xcassets */; };
 		84A855592BF2BF4900623392 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84A855572BF2BF4900623392 /* LaunchScreen.storyboard */; };
+		84A855632BF2C60500623392 /* reproducir.png in Resources */ = {isa = PBXBuildFile; fileRef = 84A855622BF2C60500623392 /* reproducir.png */; };
+		84A855672BF2C9D100623392 /* grabar.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 84A855662BF2C9D100623392 /* grabar.jpeg */; };
+		84A855692BF2CA9600623392 /* SoundViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A855682BF2CA9600623392 /* SoundViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +29,9 @@
 		84A855552BF2BF4900623392 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		84A855582BF2BF4900623392 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		84A8555A2BF2BF4900623392 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84A855622BF2C60500623392 /* reproducir.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = reproducir.png; sourceTree = "<group>"; };
+		84A855662BF2C9D100623392 /* grabar.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = grabar.jpeg; sourceTree = "<group>"; };
+		84A855682BF2CA9600623392 /* SoundViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,7 +68,10 @@
 				84A8554B2BF2BF4300623392 /* SceneDelegate.swift */,
 				84A8554D2BF2BF4300623392 /* ViewController.swift */,
 				84A8554F2BF2BF4300623392 /* Main.storyboard */,
+				84A855682BF2CA9600623392 /* SoundViewController.swift */,
 				84A855552BF2BF4900623392 /* Assets.xcassets */,
+				84A855662BF2C9D100623392 /* grabar.jpeg */,
+				84A855622BF2C60500623392 /* reproducir.png */,
 				84A855572BF2BF4900623392 /* LaunchScreen.storyboard */,
 				84A8555A2BF2BF4900623392 /* Info.plist */,
 				84A855522BF2BF4300623392 /* FloresSoundBoard.xcdatamodeld */,
@@ -128,8 +137,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84A855632BF2C60500623392 /* reproducir.png in Resources */,
 				84A855592BF2BF4900623392 /* LaunchScreen.storyboard in Resources */,
 				84A855562BF2BF4900623392 /* Assets.xcassets in Resources */,
+				84A855672BF2C9D100623392 /* grabar.jpeg in Resources */,
 				84A855512BF2BF4300623392 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -145,6 +156,7 @@
 				84A855542BF2BF4300623392 /* FloresSoundBoard.xcdatamodeld in Sources */,
 				84A8554A2BF2BF4300623392 /* AppDelegate.swift in Sources */,
 				84A8554C2BF2BF4300623392 /* SceneDelegate.swift in Sources */,
+				84A855692BF2CA9600623392 /* SoundViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
